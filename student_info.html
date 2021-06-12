@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/new.css">
+</head>
+<body>
+    <div class="info">
+    <h1 class="head">Student Information</h1>
+    <hr>
+    <p>Required *</p>
+    <p>First Name:* <input type="text" name="fname" id="fname" required></p>
+    <p> Middle Name: <input type="text" name="mname" id="mname"></p>
+    <p> Last Name:* <input type="text" name="lname" id="lname" required></p>
+    <p>Father Name:* <input type="text" name="faname" id="faname" required></p>
+    <p>Mother Name:* <input type="text" name="maname" id="maname" required></p>
+    <fieldset>
+        <legend>Gender*</legend>
+        <p>
+            Male <input type="radio" name="gender" id="male">
+            Female <input type="radio" name="gender" id="female">
+            Other <input type="radio" name="gender" id="other">
+        </p>
+    </fieldset>
+    <p>Date of Birth:* <input type="date" name="date" id="date" required></p>
+    <p>Address:* <textarea placeholder="Enter Your Address" name="address" id="address" cols="80" rows="7" required></textarea></p>
+    <p>Pincode:* <input type="number" name="pincode" id="pincode" required></p>
+    <p>Email:* <input placeholder="jhdhsjajh@gmail.com" type="Email" name="email" id="email" required></p>
+    <p>Contact Number:* <input type="number" name="contact_number" id="contact_number"></p>
+    <p>Caste* 
+        <select>
+            <option value="">--select your Caste--</option>
+            <option value="general">General</option>
+            <option value="OBC">OBC</option>
+            <option value="SC">SC</option>
+            <option value="ST">ST</option>
+        </select>    
+    </p>
+    <input type="submit" value="Submit">
+    </div>
+</body>
+</html>
